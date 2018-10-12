@@ -1,3 +1,5 @@
+server:
+  port: 8082
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -9,8 +11,6 @@ spring:
     port: 5672
   jpa:
     show-sql: true
-  server:
-    port: 8082
   eureka:
     client:
       service-url:
