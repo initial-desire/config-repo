@@ -9,3 +9,5 @@ spring:
     port: 5672
   jpa:
     show-sql: true
+  server:
+    port: 8082
