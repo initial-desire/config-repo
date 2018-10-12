@@ -8,6 +8,9 @@ spring:
     password:
   jpa:
     show-sql: true
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
 server:
   port: 8081
 eureka:
